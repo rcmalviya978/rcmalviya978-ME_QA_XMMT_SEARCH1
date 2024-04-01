@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: 'application'
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+
+    implementation 'org.seleniumhq.selenium:selenium-java:4.16.1'
+
+    testImplementation group: 'org.testng', name: 'testng', version: '7.9.0'
+
+}
+
+//test {
+//    useTestNG() {
+//    }
+//}
+
+//task startScript(type:Exec) {
+//    commandLine './selenium-run.sh'
+//}
+
+//run.dependsOn startScript
+
+//test.dependsOn startScript
+
+mainClassName='demo.App'

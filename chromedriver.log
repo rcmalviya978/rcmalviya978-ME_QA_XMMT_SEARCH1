@@ -1,0 +1,178 @@
+[1709630787.033][INFO]: Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 36622
+[1709630787.033][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1709630787.253][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1709630787.254][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1709630787.256][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1709630787.260][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1709630787.260][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1709630787.262][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\WINDOWS\SystemTemp\scoped_dir17916_2102327566" data:,
+[1709630788.437][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1709630788.441][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "122.0.6261.95",
+      "chrome": {
+         "chromedriverVersion": "122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})",
+         "userDataDir": "C:\\WINDOWS\\SystemTemp\\scoped_dir17916_2102327566"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:47396"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2167cd9ce0b9cb1b3f3d0ddd0287fd02"
+}
+[1709630788.667][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND MaximizeWindow {
+}
+[1709630788.667][INFO]: Waiting for pending navigations...
+[1709630788.669][INFO]: Done waiting for pending navigations. Status: ok
+[1709630788.799][INFO]: Waiting for pending navigations...
+[1709630788.801][INFO]: Done waiting for pending navigations. Status: ok
+[1709630788.801][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE MaximizeWindow {
+   "height": 705,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1709630788.814][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1709630788.814][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE SetTimeouts
+[1709630788.823][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND Navigate {
+   "url": "https://www.makemytrip.com/"
+}
+[1709630788.823][INFO]: Waiting for pending navigations...
+[1709630788.823][INFO]: Done waiting for pending navigations. Status: ok
+[1709630789.232][INFO]: Waiting for pending navigations...
+[1709630792.920][INFO]: Done waiting for pending navigations. Status: ok
+[1709630792.920][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE Navigate
+[1709630792.927][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND GetUrl {
+}
+[1709630792.927][INFO]: Waiting for pending navigations...
+[1709630792.927][INFO]: Done waiting for pending navigations. Status: ok
+[1709630792.931][INFO]: Waiting for pending navigations...
+[1709630792.932][INFO]: Done waiting for pending navigations. Status: ok
+[1709630792.932][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE GetUrl "https://www.makemytrip.com/"
+[1709630792.936][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND Navigate {
+   "url": "https://www.makemytrip.com/"
+}
+[1709630792.936][INFO]: Waiting for pending navigations...
+[1709630792.937][INFO]: Done waiting for pending navigations. Status: ok
+[1709630793.056][INFO]: Waiting for pending navigations...
+[1709630794.200][INFO]: Done waiting for pending navigations. Status: ok
+[1709630794.200][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE Navigate
+[1709630797.211][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[@for = 'fromCity']"
+}
+[1709630797.211][INFO]: Waiting for pending navigations...
+[1709630797.212][INFO]: Done waiting for pending navigations. Status: ok
+[1709630797.252][INFO]: Waiting for pending navigations...
+[1709630797.254][INFO]: Done waiting for pending navigations. Status: ok
+[1709630797.254][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.D2E48CD229D8EB026D5B375D5A55EB8E.d.30A5F956AF442E399267E87444ED5086.e.98"
+}
+[1709630797.267][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] COMMAND ClickElement {
+   "id": "f.D2E48CD229D8EB026D5B375D5A55EB8E.d.30A5F956AF442E399267E87444ED5086.e.98"
+}
+[1709630797.267][INFO]: Waiting for pending navigations...
+[1709630797.269][INFO]: Done waiting for pending navigations. Status: ok
+[1709630798.374][INFO]: Waiting for pending navigations...
+[1709630798.377][INFO]: Done waiting for pending navigations. Status: ok
+[1709630798.377][INFO]: [2167cd9ce0b9cb1b3f3d0ddd0287fd02] RESPONSE ClickElement ERROR element click intercepted: Element <label for="fromCity">...</label> is not clickable at point (202, 286). Other element would receive the click: <iframe title="notification-frame-3176854a" name="notification-frame-3176854a" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; position: fixed; z-index: 16776272; left: -1000px; top: -1000px; visibility: visible; height: 100%; width: 100%; transform: translate(1000px, 1000px);" data-notification-layout-id="~184fc0b7" data-notification-layout-name="modal"></iframe>
+  (Session info: chrome=122.0.6261.95)
